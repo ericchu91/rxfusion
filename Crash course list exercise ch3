@@ -1,0 +1,27 @@
+#3-4 Guess list
+guess_list = ['Amy','Annie','Apple']
+guess_list1 ='Annie'
+print(f'Hey {guess_list1} Lets go dinner')
+print(f'Hey {guess_list[0]} Lets go dinner')
+
+
+#3-5 Guess list one of your guests can't make the dinner, send out new invitation.
+print(guess_list)
+print(f'guest {guess_list[1]} can not go')
+guess_list[2] = 'crystal'
+print(guess_list)
+print(f'Hey {guess_list} lets go to dinner')
+
+#3-6: More guest: think of three more guess to invite
+print(guess_list)
+guess_list.append('phoebe')
+guess_list.append('Jim')
+guess_list.insert(5,'cURRY')
+print(guess_list)
+
+#3-7: shrinking Guest list:
+print(guess_list)
+guess_list.pop(0)
+print(guess_list)
+del guess_list[0:3]
+print(guess_list)
